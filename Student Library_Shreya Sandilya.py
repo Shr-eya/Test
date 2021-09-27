@@ -3,7 +3,7 @@ from tkinter import *
 class Library:
     global Books
     global Borrowers
-    Books=['Heart of Darkness','Birthday Girl','Pride and Projudice','Black Clover','When They Cry','Tokyo Ghoul','Demon Slayer','Python','SQL']
+    Books=['Heart of Darkness','Birthday Girl','Pride and Projudice','Black Clover','When They Cry','Tokyo Ghoul','Demon Slayer','Python','SQL','Harry Potter']
     Borrowers={}
     def __init__(self,master):
         self.frame=Frame(master)
